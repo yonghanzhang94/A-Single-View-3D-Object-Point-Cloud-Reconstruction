@@ -1,6 +1,10 @@
 # img2pointcloud
 This repository contains the source codes for the paper 3D-ReConstnet A Single-View 3D-Object Point Cloud Reconstruction Network.
 Accepted at IEEE Access. <br>
+for more details,please see this link:<br>
+https://ieeexplore.ieee.org/document/9086481?source=authoralert<br>
+and please cite our paper:<br>
+B. Li, Y. Zhang, B. Zhao and H. Shao, "3D-ReConstnet: A Single-View 3D-Object Point Cloud Reconstruction Network," in IEEE Access, vol. 8, pp. 83782-83790, 2020, doi: 10.1109/ACCESS.2020.2992554.<br>
 ![prediction example](https://github.com/yonghanzhang94/img2pointcloud/blob/master/figure3.png)
 ## Dataset
 ### ShapeNet
