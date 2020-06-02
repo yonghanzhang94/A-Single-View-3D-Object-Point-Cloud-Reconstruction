@@ -1,4 +1,4 @@
-# img2pointcloud
+# 3D-ReConstnet A Single-View 3D-Object Point Cloud Reconstruction Network
 This repository contains the source codes for the paper 3D-ReConstnet A Single-View 3D-Object Point Cloud Reconstruction Network.
 Accepted at IEEE Access. For more details, please see this link:<br>
 https://ieeexplore.ieee.org/document/9086481?source=authoralert<br>
