@@ -9,7 +9,7 @@ from os.path import join, exists, isdir, dirname, abspath, basename
 import json
 from datasets import GetShapenetDataset
 import torch.backends.cudnn as cudnn
-from pointgan import discriminator, generator
+from model import generator
 import torch.optim as optim
 from torch.autograd import Variable
 import torch.autograd as autograd
