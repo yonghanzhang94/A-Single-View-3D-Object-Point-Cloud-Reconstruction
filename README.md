@@ -41,6 +41,10 @@ cd img2pointcloud
 ```shell
 make
 ```
+3. This code need geomloss, please install geomloss.
+```shell
+pip install geomloss
+```
 ## Training
 To train model, run:
 ```shell
