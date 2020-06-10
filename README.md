@@ -34,8 +34,8 @@ The folder structure should now look like this:<br>
 Install TensorFlow. We recommend version 1.13 so that the additional TensorFlow ops can be compiled. The code provided has been tested with Python 3.6, TensorFlow 1.13, Pytorch 1.0.0(Lower version can't run) and CUDA 10.0. The following steps need to be performed to run the codes given in this repository:
 1.Clone the repository:
 ```shell
-git clone https://github.com/yonghanzhang94/img2pointcloud.git
-cd img2pointcloud
+git clone https://github.com/yonghanzhang94/A-Single-View-3D-Object-Point-Cloud-Reconstruction.git
+cd A-Single-View-3D-Object-Point-Cloud-Reconstruction
 ```
 2.Tensorflow ops for losses (Chamfer and EMD) as well as for point cloud visualization need to be compiled. Run the makefile as given below. (Note that the the nvcc, cudalib, and tensorflow paths inside the makefile need to be updated to point to the locations on your machine):
 ```shell
