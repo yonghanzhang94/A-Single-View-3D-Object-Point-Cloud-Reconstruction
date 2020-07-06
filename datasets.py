@@ -143,18 +143,3 @@ def rotate(xyz, xangle=0, yangle=0, zangle=0):
     return xyz.dot(rotmat)
 
 
-if __name__ == '__main__':
-
-    with open(join('data/splits/', 'train_models.json'), 'r') as f:
-        train_models_dict = json.load(f)
-
-    with open(join('data/splits/', 'val_models.json'), 'r') as f:
-        val_models_dict = json.load(f)
-
-    data_dir_imgs = './data/shapenet/ShapeNetRendering/'
-    data_dir_pcl = './data/shapenet/ShapeNet_pointclouds/'
-
-    batch_size = 32
-    trainset = GetShapenetDataset(data_dir_imgs, data_dir_pcl, train_models_dict)
-    trainloader = torch.utils.data.DataLoader(trainset, batch_size, shuffle=True, num_workers=0)
-    print(len(trainset))
